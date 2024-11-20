@@ -1,9 +1,10 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'brewhaus',
-  webDir: 'www'
+  appId: 'com.brewhaus.app',
+  appName: 'Brewhaus',
+  webDir: 'www',
+  bundledWebRuntime: false
 };
 
 export default config;
